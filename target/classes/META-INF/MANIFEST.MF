@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: com.skynetcorp.esb_skynetcorp;uses:="org.apache.camel.
+ builder,org.apache.camel.main,org.apache.camel,org.apache.camel.model
+ .rest,org.apache.camel.model",com.skynetcorp.esb_skynetcorp.model;use
+ s:="com.fasterxml.jackson.annotation"
+Bundle-SymbolicName: esb-skynetcorp
+Bundle-Name: A Camel Route
+Bundle-Version: 0.0.1.SNAPSHOT
+Built-By: Wilson Forero
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1569804661482
+Import-Package: com.fasterxml.jackson.annotation;version="[2.9,3)",org
+ .apache.camel;version="[3.0,4)",org.apache.camel.builder;version="[3.
+ 0,4)",org.apache.camel.main;version="[3.0,4)",org.apache.camel.model;
+ version="[3.0,4)",org.apache.camel.model.rest;version="[3.0,4)"
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-1.15.0
+Build-Jdk: 1.8.0_181
+
